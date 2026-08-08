@@ -52,11 +52,11 @@ public class AppConfig {
 					
 					// Defines the allowed origin URLs where the frontend applications run
 					cfg.setAllowedOrigins(Arrays.asList(
-						"http://localhost:3000", 
-						"http://localhost:4000",
-						"http://localhost:4200",
-						"https://vercel.app"
-					));
+						    "http://localhost:3000", 
+						    "http://localhost:4000",
+						    "http://localhost:4200",
+						    "https://trendify-frontend-ruddy.vercel.app"					
+					    ));
 					
 					// Allows all HTTP methods like GET, POST, PUT, DELETE
 					cfg.setAllowedMethods(Collections.singletonList("*"));
