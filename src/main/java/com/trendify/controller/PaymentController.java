@@ -146,7 +146,6 @@ public class PaymentController {
 	      
 	} catch (Exception e) {
 		System.out.println("errrr payment -------- ");
-		new RedirectView("https://shopwithzosh.vercel.app/payment/failed");
 		throw new RazorpayException(e.getMessage());
 	}
 
